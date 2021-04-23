@@ -16,10 +16,10 @@
 title: Maximilian Schambach
 email: schambach[at]kit[dot]edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A PhD student doing research in Computational Imaging at Karlsruhe Institute of Technology (KIT), Germany.
+  Personal website of Maximilian Schambach.
 github_username: MaxSchambach
 minimal_mistakes_skin: "air"
-search: true
+search: false
 
 repository: MaxSchambach/MaxSchambach.github.io
 github: [metadata]
@@ -27,6 +27,7 @@ github: [metadata]
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+locale: "en-US"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -60,7 +61,8 @@ plugins:
 author:
   name   : "Maximilian Schambach"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "A PhD student doing research in Computational Imaging at Karlsruhe Institute of Technology (KIT), Germany."
+  bio    : "A PhD student doing research in Computational Imaging at Karlsruhe Institute of Technology (KIT)."
+  location : "Karlsruhe, Germany"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -97,11 +99,12 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"

@@ -16,7 +16,7 @@
 title: Maximilian Schambach
 email: schambach[at]kit[dot]edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Currently a PhD student at Karlsruhe Institute of Technology (KIT), Germany.
+  A PhD student doing research in Computational Imaging at Karlsruhe Institute of Technology (KIT), Germany.
 github_username: MaxSchambach
 minimal_mistakes_skin: "air"
 search: true
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Maximilian Schambach"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "A PhD student doing research in Computational Imaging at Karlsruhe Institute of Technology (KIT), Germany."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

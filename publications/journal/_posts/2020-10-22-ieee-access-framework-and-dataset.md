@@ -2,7 +2,7 @@
 title: A Multispectral light field dataset and framework for light field deep learning
 layout: publication
 
-ref-authors: <b>Schambach, M.</b>, Qiaoshuang, Z., Lemmer, U., and Heizmann, M.
+ref-authors: <b>Schambach, M.</b> and Heizmann, M.
 ref-year: 2021
 ref-journal: IEEE Access
 ref-volume: 8

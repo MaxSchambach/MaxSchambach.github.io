@@ -1,0 +1,13 @@
+.cvmain {
+    float: left;
+    width: 80%;
+}
+.cvyears {
+    float: right;
+    font-style: italic;
+    color: grey;
+    width: 20%;
+}
+.cv {
+    clear: both;
+}

@@ -1,0 +1,120 @@
+---
+permalink: /publications/
+title: "Publications"
+classes: wide
+---
+
+<h2> Preprints </h2>
+<div class="publications">
+  <small>
+  <ul>
+    {% for post in site.categories.preprint %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
+          {{ post.ref-authors }}<br> 
+          {{ post.ref-reference }}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
+          {% if post.ref-link %}
+            <a target="_blank" href="{{ post.ref-link }}" >[paper]</a>
+          {% endif %}
+          {% if post.ref-code %}
+            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
+          {% endif %}
+          {% if post.ref-data %}
+            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
+          {% endif %}    
+        </li>
+    {% endfor %}
+  </ul>
+  </small>
+</div>
+
+
+
+<h2> Journals </h2>
+<div class="publications">
+  <small>
+  <ul>
+    {% for post in site.categories.journal %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
+          {{ post.ref-authors }}<br> 
+          <i>{{ post.ref-journal }}</i>{% if post.ref-volume %}, <b>{{ post.ref-volume }}</b>{% if post.ref-issue %}.{{ post.ref-issue }}{% endif %}{% endif %}{% if post.ref-pages %}, pp.{{ post.ref-pages }}{% endif %}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
+          {% if post.ref-link %}
+            <a target="_blank" href="{{ post.ref-link }}">[paper]</a>
+          {% endif %}
+          {% if post.ref-code %}
+            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
+          {% endif %}
+          {% if post.ref-data %}
+            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
+          {% endif %}  
+        </li>
+    {% endfor %}
+  </ul>
+  </small>
+</div>
+
+
+
+<h2> Conferences </h2>
+<div class="publications">
+  <small>
+  <ul>
+    {% for post in site.categories.conference %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
+          {{ post.ref-authors }}<br> 
+          {{ post.ref-conference }}{% if post.ref-organizer %}<br>{{ post.ref-organizer }}{% endif %}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
+          {% if post.ref-link %}
+            <a target="_blank" href="{{ post.ref-link }}">[paper]</a>
+          {% endif %}
+          {% if post.ref-code %}
+            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
+          {% endif %}
+          {% if post.ref-data %}
+            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
+          {% endif %}     
+        </li>
+    {% endfor %}
+  </ul>
+  </small>
+</div>
+
+
+<h2> Datasets </h2>
+<div class="publications">
+  <small>
+  <ul>
+    {% for post in site.categories.dataset %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
+          {{ post.ref-authors }}<br> 
+          {{ post.ref-reference }}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
+          {% if post.ref-link %}
+            <a target="_blank" href="{{ post.ref-link }}" >[paper]</a>
+          {% endif %}
+          {% if post.ref-code %}
+            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
+          {% endif %}
+          {% if post.ref-data %}
+            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
+          {% endif %}    
+        </li>
+    {% endfor %}
+  </ul>
+  </small>
+</div>
+
+<h2> Software </h2>
+<div class="publications">
+  <small>
+  <ul>
+    {% for post in site.categories.software %}
+        <li>
+          <a href="{{ post.link }}">{{ post.title }}.</a><br>
+          {{ post.ref-details }}<br> 
+        </li>
+    {% endfor %}
+  </ul>
+  </small>
+</div>

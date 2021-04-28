@@ -2,9 +2,14 @@
 author_profile: true
 layout: single
 
-# header:
-#  overlay_color: "#333"
-#  overlay_image: /assets/images/coded-mla.png
+header:
+  overlay_image: /assets/images/title.png
+  image_description: "Fractal Computational Imaging"
+  actions:
+    - label: "CV"
+      url: "/cv"
+    - label: "Publications"
+      url: "/publications"
 
 permalink: /
 title: "About Me"

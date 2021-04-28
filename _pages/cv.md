@@ -9,16 +9,16 @@ classes: wide
 ## Education
 <div>
     {% for post in site.categories.education %}
-      <div class=cv>
-        <p class="cvmain">{{ post.title }}<br> 
-        <small>
-        {% for val in post.cv-details %}
-          &#8226; {{ val }} <br>
-        {% endfor %}
-        {% if post.thesis %}&#8226; Thesis: {% if post.thesis-link %}<a href="{{ post.thesis-link }}" target="_blank">{{ post.thesis }}</a>{% else %}{{ post.thesis }}{% endif %}{% endif %}
-        </small>
-        </p>
-      <p class="cvyears">{{ post.cv-years }}</p>
+      <div class="cv">
+        <div class="cvmain">{{ post.title }}<br> 
+          <small>
+          {% for val in post.cv-details %}
+            &#8226; {{ val }} <br>
+          {% endfor %}
+          {% if post.thesis %}&#8226; Thesis: {% if post.thesis-link %}<a href="{{ post.thesis-link }}" target="_blank">{{ post.thesis }}</a>{% else %}{{ post.thesis }}{% endif %}{% endif %}
+          </small>
+        </div>
+        <div class="cvyears">{{ post.cv-years }}</div>
       </div>
     {% endfor %}
 </div>
@@ -28,14 +28,14 @@ classes: wide
 ## Work Experience
 <div>
     {% for post in site.categories.workexperience %}
-      <div class=cv>
-        <p class="cvmain">{{ post.title }}<br>
+      <div class="cv">
+        <div class="cvmain">{{ post.title }}<br>
         <small> 
           {{ post.cv-details }}<br> 
           {{ post.cv-location }}
         </small>
-        </p>
-      <p class="cvyears">{{ post.cv-years }}</p>
+        </div>
+      <div class="cvyears">{{ post.cv-years }}</div>
       </div>
     {% endfor %}
 </div>

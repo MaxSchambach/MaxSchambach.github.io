@@ -1,6 +1,6 @@
 ---
 permalink: /cv/
-title: "Curriculum vitae"
+title: "Curriculum Vitae"
 classes: wide
 ---
 <link rel='stylesheet' type='text/css' href='/assets/css/cvstyle.css' />

@@ -3,7 +3,7 @@ author_profile: true
 layout: single
 
 header:
-  overlay_image: /assets/images/title.png
+  overlay_image: /assets/images/title_color.png
   image_description: "Fractal Computational Imaging"
   actions:
     - label: "CV"
@@ -23,7 +23,7 @@ I am particularly interested in joint hardware & software optimization to develo
 
 Currently, I am working on reconstruction from spectrally coded light fields where I have obtained experise in image and signal processing, compressed sensing, and computer vision.
 
-I received a **BSc in Physics** from Jena University in 2013 and a **MSc in Physics** from Leipzig University in 2016.
+I received a **B.S. in Physics** from Jena University in 2013 and a **M.S. in Physics** from Leipzig University in 2016.
 In my Master's thesis I worked on quantum fields in curved spacetimes, investigation the quantization of the Proca field in globally hyperbolic spacetimes and its zero mass limit, under supervision of [Ko Sanders] and [Stefan Hollands].
 Despite having swiched my main focus to computer vision, I still enjoy catching up with the latest [physics](https://www.quantamagazine.org/) [news](https://www.math.columbia.edu/~woit/wordpress/).
 
@@ -34,5 +34,3 @@ Despite having swiched my main focus to computer vision, I still enjoy catching 
 [Karlsruhe Institute of Technology (KIT)]: https://www.kit.edu/english
 [Ko Sanders]: https://www.dcu.ie/maths/people/ko-sanders
 [Stefan Hollands]: https://home.uni-leipzig.de/tet/?page_id=215
-
-{{ site.env.HOSTNAME }}

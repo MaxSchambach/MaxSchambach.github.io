@@ -1,7 +1,11 @@
 ---
 permalink: /cv/
 title: "Curriculum Vitae"
+excerpt: "&thinsp;"
 classes: wide
+header:
+  overlay_image: /assets/images/cv_color.png
+  overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 255, 255, 0.0))
 ---
 <link rel='stylesheet' type='text/css' href='/assets/css/cvstyle.css' />
 

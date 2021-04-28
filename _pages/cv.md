@@ -15,6 +15,7 @@ classes: wide
         {% for val in post.cv-details %}
           &#8226; {{ val }} <br>
         {% endfor %}
+        {% if post.thesis %}&#8226; Thesis: {% if post.thesis-link %}<a href="{{ post.thesis-link }}" target="_blank">{{ post.thesis }}</a>{% else %}{{ post.thesis }}{% endif %}{% endif %}
         </small>
         </p>
       <p class="cvyears">{{ post.cv-years }}</p>

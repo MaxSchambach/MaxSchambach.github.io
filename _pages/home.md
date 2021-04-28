@@ -3,7 +3,7 @@ author_profile: true
 layout: single
 
 header:
-  overlay_image: /assets/images/title_color.png
+  overlay_image: /assets/images/title.png
   image_description: "Fractal Computational Imaging"
   actions:
     - label: "CV"

@@ -3,7 +3,7 @@ title: A Multispectral light field dataset and framework for light field deep le
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Heizmann, M.
-ref-year: 2021
+ref-year: 2020
 ref-journal: IEEE Access
 ref-volume: 8
 ref-pages: 193492–193502

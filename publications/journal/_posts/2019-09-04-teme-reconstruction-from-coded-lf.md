@@ -3,7 +3,7 @@ title: Reconstruction of multispectral images from spectrally coded light fields
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Puente León, F.
-ref-year: 2021
+ref-year: 2019
 ref-journal: tm – Technisches Messen
 ref-volume: 86
 ref-issue: 12

@@ -2,7 +2,7 @@
 title: Automated quality assessment of inkjet-printed microlens arrays
 layout: publication
 
-ref-authors: <b>Schambach, M.</b>, Qiaoshuang, Z., Lemmer, U., and Heizmann, M.
+ref-authors: <b>Schambach, M.</b>, Zhang, Q., Lemmer, U., and Heizmann, M.
 ref-year: 2021
 ref-journal: tm – Technisches Messen (early access)
 ref-link: https://doi.org/10.1515/teme-2021-0019

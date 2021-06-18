@@ -4,7 +4,7 @@ layout: publication
 
 ref-authors: <b>Schambach, M.</b>, Zhang, Q., Lemmer, U., and Heizmann, M.
 ref-year: 2021
-ref-journal: tm – Technisches Messen (early access)
+ref-journal: tm – Technisches Messen
 ref-volume: 88
 ref-issue: 6
 ref-pages: 342–351

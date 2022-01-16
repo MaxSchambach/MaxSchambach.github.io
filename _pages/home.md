@@ -22,7 +22,7 @@ My research interests lie in machine learning and its applications in **computat
 I am particularly interested in joint hardware & software optimization to develop novel imaging techniques.
 More broadly, I enjoy applied computer vision research, in particular with an industrial focus.
 
-Currently, I am working on reconstruction from spectrally coded light fields where I have obtained expertise in image and signal processing, compressed sensing, computer vision, and deep learning.
+Currently, I am working on the reconstruction from spectrally coded light fields, where I have obtained expertise in image and signal processing, compressed sensing, computer vision, and deep learning.
 Moreover, I have hands-on experience with camera hardware, prototyping, calibration, and (real-world and synthetic) dataset creation.
 
 I received a **B.S. in Physics** from Jena University in 2013 and a **M.S. in Physics** from Leipzig University in 2016.

@@ -1,5 +1,5 @@
 ---
-title: Synthetic Whiteimages for the Lytro Illum Light Field Camera with Ground Truth Microlens Center Coordinates
+title: Synthetic whiteimages for the lytro illum light field camera with ground truth microlens center coordinates
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Puente León, F.

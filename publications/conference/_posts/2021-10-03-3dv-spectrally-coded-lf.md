@@ -5,7 +5,8 @@ layout: publication
 ref-authors: <b>Schambach, M.</b>, Shi, J., and Heizmann, M.
 ref-year: 2021
 ref-conference: International Conference on 3D Vision (3DV)
-ref-link: https://arxiv.org/abs/2103.10179
+ref-link: https://ieeexplore.ieee.org/document/9665944
+ref-data: https://dx.doi.org/10.35097/500
 ---
 
 We present a novel method to reconstruct a spectral central view and its aligned disparity map from spatio-spectrally coded light fields. Since we do not reconstruct an intermediate full light field from the coded measurement, we refer to this as principal reconstruction. We show that the direct estimation is superior to a full light field reconstruction and subsequent disparity estimation. The coded light fields correspond to those captured by a light field camera in the unfocused design with a spectrally coded microlens array. In this application, the spectrally coded light field camera can be interpreted as a single-shot spectral depth camera.

@@ -5,7 +5,7 @@ layout: publication
 ref-authors: <b>Schambach, M.</b> and Heizmann, M.
 ref-year: 2021
 ref-reference: RADAR4KIT
-ref-data: https://dx.doi.org/10.21227/y90t-xk47
+ref-data: https://dx.doi.org/10.35097/500
 ---
 
 We provide a real-world multispectral light field dataset of highly textured scenes.

@@ -9,17 +9,17 @@ header:
 ---
 
 
-<!-- <h2> Preprints </h2>
+<h2> Theses </h2>
 <div class="publications">
   <small>
   <ul>
-    {% for post in site.categories.preprint %}
+    {% for post in site.categories.theses %}
         <li>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
           {{ post.ref-authors }}<br> 
-          {{ post.ref-reference }}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
+          {{ post.ref-thesis }}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
           {% if post.ref-link %}
-            <a target="_blank" href="{{ post.ref-link }}" >[paper]</a>
+            <a target="_blank" href="{{ post.ref-link }}" >[thesis]</a>
           {% endif %}
           {% if post.ref-code %}
             <a target="_blank" href="{{ post.ref-code }}">[code]</a>
@@ -31,7 +31,7 @@ header:
     {% endfor %}
   </ul>
   </small>
-</div> -->
+</div>
 
 
 

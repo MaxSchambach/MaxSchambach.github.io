@@ -3,7 +3,7 @@ title: Graphical expansion of the partition function for the supersymmetric non-
 layout: publication
 
 ref-authors: <b>Schambach, M.</b>
-ref-year: 2022
+ref-year: 2013
 ref-thesis: BSc Thesis, Institute for Theoretical Physics, University of Jena
 ref-link: https://www.tpi.uni-jena.de/qfphysics/homepage/wipf/abschlussarbeiten/schambach_bachelor.pdf
 ---

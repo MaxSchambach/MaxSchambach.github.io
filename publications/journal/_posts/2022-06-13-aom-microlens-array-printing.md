@@ -4,7 +4,8 @@ layout: publication
 
 ref-authors: Zhang, Q., <b>Schambach, M.</b>, Schlisske, S., Jin, Q., Mertens, A., Hernandez-Sosa, G., Heizmann, M., and Lemmer, U.
 ref-year: 2022
-ref-journal: Advanced Optical Materials (accepted)
+ref-journal: Advanced Optical Materials
+ref-link: https://doi.org/10.1002/adom.202200677
 ---
 
 Microlens arrays (MLAs) have a variety of applications in, e.g., display systems, projection optics, and sensor applications. \

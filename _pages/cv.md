@@ -58,6 +58,6 @@ tm – Technisches Messen
 
 **Conferences**  
 <small>
-Program Committee, Optical Characterization of Materials (OCM), 2021
+Program Committee, Optical Characterization of Materials (OCM), 2021<br>
 Program Committee, Optical Characterization of Materials (OCM), 2023
 </small>

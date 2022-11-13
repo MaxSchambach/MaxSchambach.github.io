@@ -51,10 +51,13 @@ header:
 **Reviews**  
 <small>
 IEEE Transactions on Image Processing<br>
+IEEE Access<br>
+Applied Mathematics and Computation<br>
 tm – Technisches Messen
 </small>
 
 **Conferences**  
 <small>
 Program Committee, Optical Characterization of Materials (OCM), 2021
+Program Committee, Optical Characterization of Materials (OCM), 2023
 </small>

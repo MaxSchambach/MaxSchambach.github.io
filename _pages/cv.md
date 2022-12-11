@@ -51,7 +51,7 @@ header:
 **Reviews**  
 <small>
 IEEE Transactions on Image Processing<br>
-IEEE Photonics Journal
+IEEE Photonics Journal<br>
 IEEE Access<br>
 Applied Mathematics and Computation<br>
 tm – Technisches Messen

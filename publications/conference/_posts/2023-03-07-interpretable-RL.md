@@ -4,7 +4,7 @@ layout: publication
 
 ref-authors: Siems, J., <b>Schambach, M.</b>, Schulze, S., and Otterbach, J.
 ref-year: 2023
-ref-conference: International Conference on Learning Representations Workshop on AI for Agent-based Modelling (ICLR AI4ABM)
+ref-conference: International Conference on Learning Representations Workshop (ICLR Workshop)
 ref-link: https://openreview.net/forum?id=IKMG9UGarJ5
 ---
 

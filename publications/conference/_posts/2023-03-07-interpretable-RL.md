@@ -5,7 +5,7 @@ layout: publication
 ref-authors: Siems, J., <b>Schambach, M.</b>, Schulze, S., and Otterbach, J.
 ref-year: 2023
 ref-conference: International Conference on Learning Representations Workshop (ICLR Workshop)
-ref-link: https://openreview.net/forum?id=IKMG9UGarJ5
+ref-link: https://arxiv.org/abs/2303.10382
 ---
 
 The COVID-19 pandemic has highlighted the importance of supply chains and the role of digital management to react to dynamic changes in the environment. 

@@ -1,7 +1,6 @@
 ---
 title: Curve Your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models
 layout: publication
-
 ref-authors: Siems, J., Ditschuneit, K., Ripken, W., Lindborg, A., <b>Schambach, M.</b>, Otterbach, J., and Genzel, M.
 ref-year: 2023
 ref-conference: ArXiV Preprint

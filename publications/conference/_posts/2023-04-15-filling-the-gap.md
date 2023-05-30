@@ -2,7 +2,7 @@
 title: "Filling the Gap: Fault-Tolerant Updates of On-Satellite Neural Networks Using Vector Quantization"
 layout: publication
 
-ref-authors: Kondrateva, O.; Dietzel, S., <b>Schambach, M.</b>, Otterbach, J., and Scheuermann, B. 
+ref-authors: Kondrateva, O., Dietzel, S., <b>Schambach, M.</b>, Otterbach, J., and Scheuermann, B. 
 ref-year: 2023
 ref-conference: IFIP Networking
 ---

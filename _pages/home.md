@@ -16,8 +16,8 @@ permalink: /
 title: "About Me"
 ---
 
-I've recently joined [Merantix Momentum](https://merantix-momentum.com/){:target="_blank"} as a **Senior Machine Learning Researcher**.
-My research interests lie in machine learning and its applications in challenging practical scenarios – in particular with an industrial focus.
+I am a **Research Team Lead** at [Merantix Momentum](https://merantix-momentum.com/){:target="_blank"}, which I joined in early 2022 as a **Senior Machine Learning Researcher**.
+My research interests lie in machine learning and its applications in challenging practical scenarios – in particular in computer vision and perception with an industrial focus.
 
 Previously, I obtained a **PhD** from [Karlsruhe Institute of Technology (KIT)]{:target="_blank"} under the supervision of [Michael Heizmann]{:target="_blank"}, where I worked on compressive light field imaging and other 3D and spectral imaging-related problems in Computer Vision. 
 Here, I have obtained expertise in image and signal processing, compressed sensing, computer vision, and deep learning. 

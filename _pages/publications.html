@@ -7,9 +7,9 @@ header:
     overlay_image: /assets/images/pub_color.png
     overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 255, 255, 0.0))
 ---
-<div id="sorting-options">
-    <button id="sort-by-year" class="active">Sort by Year</button>
-    <button id="sort-by-topic">Sort by Type</button>
+<div class="toggle-button" id="sorting-options">
+    <button id="sort-by-year" class="btn">Sort by Year</button>
+    <button id="sort-by-topic" class="btn">Sort by Type</button>
 </div>
 
 <script>
@@ -21,24 +21,28 @@ header:
     // Function to update the layout
     function updateLayout(layoutName) {
       fetchLayout(layoutName);
-      // Remove the 'active' class from all buttons
-      sortByYearButton.classList.remove("active");
-      sortByTopicButton.classList.remove("active");
     }
 
     sortByYearButton.addEventListener("click", function() {
+      sortByYearButton.classList.add("btn--primary");
+      sortByYearButton.classList.remove("btn--secondary");
+      sortByTopicButton.classList.remove("btn--primary");
+      sortByTopicButton.classList.add("btn--secondary");
       updateLayout("/publications_yearly/");
-      sortByYearButton.classList.add("active");
     });
 
     sortByTopicButton.addEventListener("click", function() {
+        sortByTopicButton.classList.add("btn--primary");
+        sortByTopicButton.classList.remove("btn--secondary");
+        sortByYearButton.classList.remove("btn--primary");
+        sortByYearButton.classList.add("btn--secondary");
       updateLayout("/publications_topical/");
-      sortByTopicButton.classList.add("active");
     });
 
     // Set one of the buttons to be active by default
+    sortByYearButton.classList.add("btn--primary");
+    sortByTopicButton.classList.add("btn--secondary");
     updateLayout("/publications_yearly/");
-    sortByYearButton.classList.add("active");
 
     function fetchLayout(layoutName) {
       fetch(layoutName)

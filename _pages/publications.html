@@ -4,122 +4,55 @@ title: "Publications"
 excerpt: "&thinsp;"
 classes: wide
 header:
-  overlay_image: /assets/images/pub_color.png
-  overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 255, 255, 0.0))
+    overlay_image: /assets/images/pub_color.png
+    overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 255, 255, 0.0))
 ---
+<div id="sorting-options">
+    <button id="sort-by-year" class="active">Sort by Year</button>
+    <button id="sort-by-topic">Sort by Type</button>
+</div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const postContent = document.getElementById("post-content");
+    const sortByYearButton = document.getElementById("sort-by-year");
+    const sortByTopicButton = document.getElementById("sort-by-topic");
 
-<h2> Theses </h2>
-<div class="publications">
-  <small>
-  <ul>
-    {% for post in site.categories.theses %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
-          {{ post.ref-authors }}<br> 
-          {{ post.ref-thesis }}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
-          {% if post.ref-link %}
-            <a target="_blank" href="{{ post.ref-link }}" >[thesis]</a>
-          {% endif %}
-          {% if post.ref-code %}
-            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
-          {% endif %}
-          {% if post.ref-data %}
-            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
-          {% endif %}
-        </li>
-    {% endfor %}
-  </ul>
-  </small>
+    // Function to update the layout
+    function updateLayout(layoutName) {
+      fetchLayout(layoutName);
+      // Remove the 'active' class from all buttons
+      sortByYearButton.classList.remove("active");
+      sortByTopicButton.classList.remove("active");
+    }
+
+    sortByYearButton.addEventListener("click", function() {
+      updateLayout("/publications_yearly/");
+      sortByYearButton.classList.add("active");
+    });
+
+    sortByTopicButton.addEventListener("click", function() {
+      updateLayout("/publications_topical/");
+      sortByTopicButton.classList.add("active");
+    });
+
+    // Set one of the buttons to be active by default
+    updateLayout("/publications_yearly/");
+    sortByYearButton.classList.add("active");
+
+    function fetchLayout(layoutName) {
+      fetch(layoutName)
+        .then(response => response.text())
+        .then(data => {
+          postContent.innerHTML = data;
+        });
+    }
+  });
+</script>
+
+<div id="post-content">
 </div>
 
 
 
-<h2> Journals </h2>
-<div class="publications">
-  <small>
-  <ul>
-    {% for post in site.categories.journal %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
-          {{ post.ref-authors }}<br> 
-          <i>{{ post.ref-journal }}</i>{% if post.ref-volume %}, <b>{{ post.ref-volume }}</b>{% if post.ref-issue %}.{{ post.ref-issue }}{% endif %}{% endif %}{% if post.ref-pages %}, pp.{{ post.ref-pages }}{% endif %}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
-          {% if post.ref-link %}
-            <a target="_blank" href="{{ post.ref-link }}">[paper]</a>
-          {% endif %}
-          {% if post.ref-code %}
-            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
-          {% endif %}
-          {% if post.ref-data %}
-            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
-          {% endif %}  
-        </li>
-    {% endfor %}
-  </ul>
-  </small>
-</div>
 
-
-
-<h2> Conferences </h2>
-<div class="publications">
-  <small>
-  <ul>
-    {% for post in site.categories.conference %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
-          {{ post.ref-authors }}<br> 
-          {{ post.ref-conference }}{% if post.ref-organizer %}<br>{{ post.ref-organizer }}{% endif %}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
-          {% if post.ref-link %}
-            <a target="_blank" href="{{ post.ref-link }}">[paper]</a>
-          {% endif %}
-          {% if post.ref-code %}
-            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
-          {% endif %}
-          {% if post.ref-data %}
-            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
-          {% endif %}     
-        </li>
-    {% endfor %}
-  </ul>
-  </small>
-</div>
-
-
-<h2> Datasets </h2>
-<div class="publications">
-  <small>
-  <ul>
-    {% for post in site.categories.dataset %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
-          {{ post.ref-authors }}<br> 
-          {{ post.ref-reference }}{% if post.ref-year %}, {{ post.ref-year }}{% endif %}.<br>
-          {% if post.ref-link %}
-            <a target="_blank" href="{{ post.ref-link }}" >[paper]</a>
-          {% endif %}
-          {% if post.ref-code %}
-            <a target="_blank" href="{{ post.ref-code }}">[code]</a>
-          {% endif %}
-          {% if post.ref-data %}
-            <a target="_blank" href="{{ post.ref-data }}">[data]</a>
-          {% endif %}    
-        </li>
-    {% endfor %}
-  </ul>
-  </small>
-</div>
-
-<h2> Software </h2>
-<div class="publications">
-  <small>
-  <ul>
-    {% for post in site.categories.software %}
-        <li>
-          <a href="{{ post.link }}">{{ post.title }}.</a><br>
-          {{ post.ref-details }}<br> 
-        </li>
-    {% endfor %}
-  </ul>
-  </small>
-</div>

@@ -1,5 +1,6 @@
 <h2> Theses </h2>
-    <ul>
+    <div class="publication-list">
+        <ul>
         {% for post in site.categories.theses %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a><br>
@@ -16,9 +17,11 @@
             {% endif %}
         </li>
         {% endfor %}
-    </ul>
+        </ul>
+    </div>
 
 <h2> Journals </h2>
+    <div class="publication-list">
     <ul>
         {% for post in site.categories.journal %}
         <li>
@@ -37,8 +40,10 @@
         </li>
         {% endfor %}
     </ul>
+    </div>
 
 <h2> Conferences </h2>
+    <div class="publication-list">
     <ul>
         {% for post in site.categories.conference %}
         <li>
@@ -57,8 +62,10 @@
         </li>
         {% endfor %}
     </ul>
+    </div>
 
 <h2> Datasets </h2>
+    <div class="publication-list">
     <ul>
         {% for post in site.categories.dataset %}
         <li>
@@ -77,8 +84,10 @@
         </li>
         {% endfor %}
     </ul>
+    </div>
 
 <h2> Software </h2>
+    <div class="publication-list">
     <ul>
         {% for post in site.categories.software %}
         <li>
@@ -87,3 +96,4 @@
         </li>
         {% endfor %}
     </ul>
+    </div>

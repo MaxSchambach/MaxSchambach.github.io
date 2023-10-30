@@ -11,11 +11,10 @@
         {% if post_year != current_year %}
             {% assign current_year = post_year %}
             {% if current_year != 0 %}
-                </ul>
+                </ul></div>
             {% endif %}
             <h2>{{ post_year }}</h2>
-            <small>
-            <ul>
+            <div class="publication-list"><ul>
          {% endif %}
         {% if post.categories contains 'theses' %}
             <li>
@@ -89,4 +88,4 @@
         {% endif %}
     {% endif %}
 {% endfor %}
-</ul>
+</ul></div>

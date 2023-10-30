@@ -9,10 +9,8 @@ header:
 ---
 <div id="sorting-options">
     <button id="sort-by-year" class="active">Sort by Year</button>
-    <button id="sort-by-topic">Sort by Topic</button>
+    <button id="sort-by-topic">Sort by Type</button>
 </div>
-
-
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -20,14 +18,29 @@ header:
     const sortByYearButton = document.getElementById("sort-by-year");
     const sortByTopicButton = document.getElementById("sort-by-topic");
 
+    // Function to update the layout
+    function updateLayout(layoutName) {
+      fetchLayout(layoutName);
+      // Remove the 'active' class from all buttons
+      sortByYearButton.classList.remove("active");
+      sortByTopicButton.classList.remove("active");
+    }
+
     sortByYearButton.addEventListener("click", function() {
-      fetchLayout("/publications_yearly/");
+      updateLayout("/publications_yearly/");
+      sortByYearButton.classList.add("active");
     });
 
     sortByTopicButton.addEventListener("click", function() {
-      fetchLayout("/publications_topical/");
+      updateLayout("/publications_topical/");
+      sortByTopicButton.classList.add("active");
     });
-      function fetchLayout(layoutName) {
+
+    // Set one of the buttons to be active by default
+    updateLayout("/publications_yearly/");
+    sortByYearButton.classList.add("active");
+
+    function fetchLayout(layoutName) {
       fetch(layoutName)
         .then(response => response.text())
         .then(data => {

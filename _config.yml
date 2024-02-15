@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maximilian Schambach
-email: maximilian.schambach@merantix.com
+email: maximilian.schambach@merantix-momentum.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Maximilian Schambach.
 github_username: MaxSchambach
@@ -92,7 +92,7 @@ footer:
       url: "https://gitlab.com/MaxSchambach"
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=fu0gmbAAAAAJ&hl=de&oi=ao"
+      url: "https://scholar.google.com/citations?hl=en&user=mEhY3A4AAAAJ&view_op=list_works&sortby=pubdate"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/maximilian-schambach-a75997190/"

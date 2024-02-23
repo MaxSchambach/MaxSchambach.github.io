@@ -1,5 +1,5 @@
 ---
-title: "Scaling Experiments in Self-Supervised Cross-Table Representation Learning"
+title: Scaling Experiments in Self-Supervised Cross-Table Representation Learning
 layout: publication
 ref-authors: <b>Schambach, M.</b>, Paul, D., and Otterbach, J.
 ref-year: 2023

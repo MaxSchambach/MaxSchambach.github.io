@@ -1,5 +1,5 @@
 ---
-title: Reconstruction of multispectral images from spectrally coded light fields of flat scenes
+title: Reconstruction of Multispectral Images from Spectrally Coded Light Fields of Flat Scenes
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Puente León, F.

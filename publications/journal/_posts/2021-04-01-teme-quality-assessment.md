@@ -1,5 +1,5 @@
 ---
-title: Automated quality assessment of inkjet-printed microlens arrays
+title: Automated Quality Assessment of Inkjet-Printed Microlens Arrays
 layout: publication
 
 ref-authors: <b>Schambach, M.</b>, Zhang, Q., Lemmer, U., and Heizmann, M.

@@ -1,5 +1,5 @@
 ---
-title: IIIT Raytracer – A computational camera simulation written in C++
+title: IIIT Raytracer – A Computational Camera Simulation Written in C++
 layout: publication
 
 ref-details: Contributor, maintainer

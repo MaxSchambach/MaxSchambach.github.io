@@ -1,5 +1,5 @@
 ---
-title: Improving light efficiency in multispectral imaging via complementary notch filters
+title: Improving Light Efficiency in Multispectral Imaging via Complementary Notch Filters
 layout: publication
 
 ref-authors: Panther,T.*, <b>Schambach, M.</b>*, and Heizmann, M.

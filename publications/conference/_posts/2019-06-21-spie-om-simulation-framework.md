@@ -1,5 +1,5 @@
 ---
-title: A simulation framework for the design and evaluation of computational cameras
+title: A Simulation Framework for the Design and Evaluation of Computational Cameras
 layout: publication
 
 ref-authors: Nürnberg, T., <b>Schambach, M.</b>, Uhlig, D., Heizmann, M., and Puente León, F.

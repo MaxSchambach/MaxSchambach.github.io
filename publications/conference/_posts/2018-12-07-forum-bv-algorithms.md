@@ -1,8 +1,8 @@
 ---
-title: Algorithms for microlens center detection
+title: Algorithms for Microlens Center Detection
 layout: publication
 
-ref-authors: <b>Schambach, M.</b> and Puente Léon, F.
+ref-authors: <b>Schambach, M.</b> and Puente León, F.
 ref-year: 2018
 ref-conference: Forum Bildverarbeitung, KIT Scientific Publishing
 ref-link: https://doi.org/10.5445/IR/1000088272

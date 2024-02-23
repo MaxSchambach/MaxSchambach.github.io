@@ -4,7 +4,7 @@ layout: publication
 
 ref-authors: Koenig, A., <b>Schambach, M.</b>, and Otterbach, J.
 ref-year: 2023
-ref-conference: Conference on Computer Vision and Pattern Recognition Workshop (CVPR Workshop)
+ref-conference: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
 ref-link: https://openaccess.thecvf.com/content/CVPR2023W/SAIAD/html/Koenig_Uncovering_the_Inner_Workings_of_STEGO_for_Safe_Unsupervised_Semantic_CVPRW_2023_paper.html
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: A highly textured real-world multispectral light field dataset
+title: A Highly Textured Real-World Multispectral Light Field Dataset
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Heizmann, M.

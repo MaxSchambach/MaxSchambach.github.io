@@ -1,5 +1,5 @@
 ---
-title: A Multispectral light field dataset and framework for light field deep learning
+title: A Multispectral Light Field Dataset and Framework for Light Field Deep Learning
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Heizmann, M.

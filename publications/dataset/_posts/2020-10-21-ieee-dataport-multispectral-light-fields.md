@@ -1,5 +1,5 @@
 ---
-title: A synthetic multispectral light field dataset for light field deep learning
+title: A Synthetic Multispectral Light Field Dataset for Light Field Deep Learning
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Heizmann, M.

@@ -1,5 +1,5 @@
 ---
-title: Microlens array grid estimation, light field decoding, and calibration
+title: Microlens Array Grid Estimation, Light Field Decoding, and Calibration
 layout: publication
 
 ref-authors: <b>Schambach, M.</b> and Puente Léon, F.

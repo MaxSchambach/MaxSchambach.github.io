@@ -3,7 +3,7 @@ title: "Towards Tabular Foundation Models: Status Quo, Challenges, and Opportuni
 layout: publication
 ref-authors: <b>Schambach, M.</b>
 ref-year: 2024
-ref-journal: Whitepaper. Merantix Momentum. (hal-04440710)
+ref-journal: White paper. Merantix Momentum. (hal-04440710)
 ref-link: https://hal.science/hal-04440710
 ---
 

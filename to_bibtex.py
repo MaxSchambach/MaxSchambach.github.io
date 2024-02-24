@@ -47,7 +47,7 @@ def format_authors_2(authors):
         return authors[0]
 
 def format_authors(authors):
-    authors = format_authors_2(format_authors_1(authors)).replace("., ", ". and ").replace("Schambach, M.", "\\textbf{Schambach, M.}")
+    authors = format_authors_2(format_authors_1(authors)).replace("., ", ". and ").replace("Schambach, M.", "\\textbf{M.\ Schambach}")
     return authors
 def generate_unique_key(first_author, year, description, curr_bib_keys):
     """Create BibTeX key in the format FirstAuthor:Year:Description"""
@@ -152,8 +152,8 @@ def md_to_bibtex(md_file, topic, curr_bib_keys_list):
     #fields_dict.pop("month", None)
 
     for field, value in fields_dict.items():
-        # if field.lower() == "title":
-        #     value = f"{{{value}}}"
+        if field.lower() == "title":
+            value = f"{{{value}}}"
         bibtex_entry += f"  {field.lower()} = {{{value}}},\n"
 
     bibtex_entry += "}"

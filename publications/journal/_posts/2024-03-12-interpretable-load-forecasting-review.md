@@ -4,7 +4,7 @@ layout: publication
 ref-authors: Baur, L., Ditschuneit, K., <b>Schambach, M.</b>, Kaymakci, C., Wollmann, T., and Sauer, A.
 ref-year: 2024
 ref-journal: Energy and AI
-ref-link: https://doi.org/10.1002/adom.202200677
+ref-link: https://www.sciencedirect.com/science/article/pii/S2666546824000247
 ---
 
 Electric Load Forecasting (ELF) is the central instrument for planning and controlling demand response programs, electricity trading, and consumption optimization. Due to the increasing automation of these processes, meaningful and transparent forecasts become more and more important. Still, at the same time, the complexity of the used machine learning models and architectures increases.

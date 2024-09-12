@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maximilian Schambach
-email: maximilian.schambach@merantix-momentum.com
+email: maximilian.schambach@sap.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Maximilian Schambach.
 github_username: MaxSchambach
@@ -63,12 +63,12 @@ plugins:
 author:
   name   : "Maximilian Schambach"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Research Team Lead at Merantix Momentum"
+  bio    : "Senior AI Scientist at SAP"
   location : "Berlin, Germany"
   links:
     - label: "E-Mail"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:maximilian.schambach@merantix.com"
+      url: "mailto:maximilian.schambach@sap.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MaxSchambach"
@@ -77,7 +77,7 @@ author:
       url: "https://gitlab.com/MaxSchambach"
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
-      url: "https://scholar.google.com/citations?hl=de&user=QjUbwbcAAAAJ&view_op=list_works&sortby=pubdate"
+      url: "https://scholar.google.com/citations?hl=en&user=mEhY3A4AAAAJ&view_op=list_works&sortby=pubdate"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/maximilian-schambach-a75997190/"

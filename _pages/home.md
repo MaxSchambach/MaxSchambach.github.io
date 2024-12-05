@@ -32,5 +32,5 @@ Despite having switched my main focus to computer vision, I still enjoy catching
 [Michael Heizmann]: https://www.iiit.kit.edu/english/3252.php
 [IIIT]: https://iiit.kit.edu/english
 [Karlsruhe Institute of Technology (KIT)]: https://www.kit.edu/english
-[Ko Sanders]: https://www.dcu.ie/maths/people/ko-sanders
+[Ko Sanders]: https://en.www.math.fau.de/mathematical-physics/
 [Stefan Hollands]: https://home.uni-leipzig.de/tet/?page_id=215

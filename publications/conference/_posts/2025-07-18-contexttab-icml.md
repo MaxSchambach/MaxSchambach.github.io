@@ -3,7 +3,7 @@ title: "ConTextTab: A Semantics-Aware Tabular In-Context Learner"
 layout: publication
 ref-authors: Spinaci, M.*, Polewczyk,, M.*, and <b>Schambach, M.*</b>, and Thelin, S.
 ref-year: 2025
-ref-conference: "1st ICML Workshop on Foundation Models for Structured Data (Oral)"
+ref-conference: "1st ICML Workshop on Foundation Models for Structured Data (Oral, Best Tabular Paper Award)"
 ref-link: https://arxiv.org/abs/2506.10707
 ---
 

@@ -47,18 +47,18 @@ header:
 
 
 
-## Scientific Duties
+## Other
 **Reviews**  
 <small>
 IEEE Transactions on Image Processing<br>
 IEEE Photonics Journal<br>
 IEEE Access<br>
 Applied Mathematics and Computation<br>
-tm – Technisches Messen
 </small>
 
 **Conferences**  
 <small>
-Program Committee, Optical Characterization of Materials (OCM), 2021<br>
-Program Committee, Optical Characterization of Materials (OCM), 2023
+Co-Organizer, ICML Workshop on Foundation Models for Structured Data, 2026<br>
+Program Committee, Optical Characterization of Materials (OCM), 2023<br>
+Program Committee, Optical Characterization of Materials (OCM), 2021
 </small>

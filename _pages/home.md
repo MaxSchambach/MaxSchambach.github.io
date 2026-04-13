@@ -17,7 +17,7 @@ title: "About Me"
 ---
 
 
-I am a **Senior AI Scientist** at [SAP](https://www.sap.com){:target="_blank"} working on foundation models for tabular data. My research interests lie in machine learning and its applications in challenging practical scenarios – currently with a focus on tabular representation learning and large tabular models.
+I am an **Expert AI Scientist** at [SAP](https://www.sap.com){:target="_blank"} working on foundation models for tabular data. My research interests lie in machine learning and its applications in challenging practical scenarios – currently with a focus on tabular in-context learning and large tabular models.
 
 Previously, I was a **Research Team Lead** at [Merantix Momentum](https://merantix-momentum.com/){:target="_blank"}, which I joined in early 2022 as a **Senior Machine Learning Researcher**, focussing on ML applications in manufacturing.
 Prior, I obtained a **PhD** from [Karlsruhe Institute of Technology (KIT)]{:target="_blank"} under the supervision of [Michael Heizmann]{:target="_blank"}, where I worked on compressive light field imaging and other 3D and spectral imaging-related problems in Computer Vision. 

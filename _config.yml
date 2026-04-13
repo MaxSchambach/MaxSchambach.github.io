@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "Maximilian Schambach"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Senior AI Scientist at SAP"
+  bio    : "Expert AI Scientist at SAP"
   location : "Berlin, Germany"
   links:
     - label: "E-Mail"

@@ -1,7 +1,7 @@
 ---
 title: "Exploring Differences Between Tabular Enterprise Data and Public Benchmarks"
 layout: publication
-ref-authors: Kim, M. J., and <b>Schambach, M.</b>, and Essenberger, F., and Sres, A., and Höhne, J.
+ref-authors: Kim, M. J.*, and <b>Schambach, M.*</b>, and Essenberger, F., and Sres, A., and Höhne, J.
 ref-year: 2026
 ref-conference: "2nd ICML Workshop on Foundation Models for Structured Data"
 ref-link: https://openreview.net/forum?id=PXSBtjo3Gd

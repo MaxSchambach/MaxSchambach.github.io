@@ -1,7 +1,7 @@
 ---
 title: "FlexTab: Towards a Flexible Encoder-Decoder Architecture for Tabular In-Context Learning"
 layout: publication
-ref-authors: Polewczyk, M., and <b>Schambach, M.</b>, and Spinaci, M., and Thelin, S., and Höhne, J.
+ref-authors: Polewczyk, M.*, and <b>Schambach, M.*</b>, and Spinaci, M.*, and Thelin, S., and Höhne, J.
 ref-year: 2026
 ref-conference: "2nd ICML Workshop on Foundation Models for Structured Data"
 ref-link: https://openreview.net/forum?id=fOph6xxdyP

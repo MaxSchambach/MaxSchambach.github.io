@@ -28,11 +28,11 @@ def bold_to_latex(s):
 
 
 def format_authors_1(authors):
-    authors = authors.replace("<b>", "").replace("</b>", "").replace("*", "")
+    authors = authors.replace("<b>", "").replace("</b>", "")
     authors = authors.split(' and ')
     if len(authors) > 1:
         last_author = authors.pop(-1)
-        authors = 'and '.join(authors)
+        authors = ' and '.join(authors)
         return authors + ' and ' + last_author
     else:
         return authors[0]
@@ -41,13 +41,19 @@ def format_authors_2(authors):
     authors = authors.split(', and ')
     if len(authors) > 1:
         last_author = authors.pop(-1)
-        authors = 'and '.join(authors)
+        authors = ' and '.join(authors)
         return authors + ' and ' + last_author
     else:
         return authors[0]
 
 def format_authors(authors):
-    authors = format_authors_2(format_authors_1(authors)).replace("., ", ". and ").replace("Schambach, M.", "\\textbf{M.\ Schambach}")
+    # Move asterisk from after first name to after last name: "Lastname, F.*" -> "Lastname*, F."
+    authors = re.sub(r'(\w+), (\w\.)\*', r'\1*, \2', authors)
+    authors = format_authors_2(format_authors_1(authors)).replace("., ", ". and ")
+    # Convert asterisks to LaTeX superscript before name formatting
+    authors = authors.replace("*", r"$^*$")
+    # Now format the bold name (with or without asterisk)
+    authors = authors.replace(r"Schambach$^*$, M.", r"\textbf{M.\ Schambach$^*$}").replace("Schambach, M.", r"\textbf{M.\ Schambach}")
     return authors
 def generate_unique_key(first_author, year, description, curr_bib_keys):
     """Create BibTeX key in the format FirstAuthor:Year:Description"""

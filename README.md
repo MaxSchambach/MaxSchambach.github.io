@@ -35,4 +35,3 @@ Install Jekyll according to the [official docs](https://jekyllrb.com/docs/), the
 bundle install
 bundle exec jekyll serve --livereload
 ```
-

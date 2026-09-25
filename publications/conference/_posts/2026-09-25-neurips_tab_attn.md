@@ -1,0 +1,11 @@
+---
+title: "Benchmarking Attention for Tabular Foundation Models"
+layout: publication
+ref-authors: <b>Schambach, M.</b>, and Biehl, C., and Thelin, S.
+ref-year: 2026
+ref-conference: "Conference on Neural Information Processing Systems (NeurIPS, Evaluations and Datasets Track)"
+ref-link: https://openreview.net/forum?id=1MbSbrblLi
+ref-code: https://github.com/SAP-samples/tabular-attention-benchmark
+---
+
+Tabular in-context learners such as TabPFN, Mitra, or ConTextTab rely on alternating row and column attention over 2D sequences of latent embeddings. These attention patterns differ markedly from the one-dimensional case in language models: row attention involves longer sequences while column attention operates on much shorter ones, and the strided memory layout of tabular data makes producing contiguous tensors costly. Moreover, the hidden dimensions used in current models are small compared to recent language models. Yet efficient attention has been studied mostly for one-dimensional sequences, leaving the two-dimensional tabular setting unexplored. To this end, we create a reproducible benchmarking setup and study the unique characteristics of tabular attention across several backends - Torch SDPA (efficient and cuDNN), FlashAttention-2/3/4, and the inference-only backends vLLM and SageAttention - measuring forward and backward throughput across realistic tabular shapes on three GPU generations (A100, H100, B200). We find that the optimal backend choice differs between column and row attention and varies across hardware as well as model specifics: While the FlashAttention implementations tailored for each GPU generation perform overall best, they are at times outperformed by CuDNN in the case of column attention at longer sequences with cross-over points depending on the head dimension. Among inference-only backends, SageAttention performs exceptionally well for row attention and large sequences beyond 4,k rows. Our reproducible benchmark lays the foundation for future improvements to table-native attention. The self-contained benchmarking and evaluation code is openly available.
